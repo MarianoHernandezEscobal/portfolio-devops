@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tu Nombre — Portfolio DevOps</title>
+  <title>Mariano Hernández — Portfolio DevOps</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -12,7 +12,7 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#hero" class="nav-logo">TU_NOMBRE</a>
+    <a href="#hero" class="nav-logo">MARIANO_HERNÁNDEZ</a>
     <ul class="nav-links">
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Proyectos</a></li>
@@ -25,12 +25,12 @@
   <!-- HERO -->
   <section id="hero">
     <p class="hero-tag">👋 Hola, soy</p>
-    <h1 class="hero-name">Tu <span>Nombre</span></h1>
-    <p class="hero-role">DevOps Engineer</p>
+    <h1 class="hero-name">Mariano <span>Hernández</span></h1>
+    <p class="hero-role">Backend Developer & DevOps</p>
     <p class="hero-desc">
-      <!-- TODO: escribí una descripción breve sobre vos, tu enfoque y lo que te apasiona -->
-      Estudiante de DevOps apasionado por la automatización, la infraestructura como código
-      y las prácticas de entrega continua. Actualmente completando el Certificado DevOps en ORT ATI.
+      Desarrollador de software especializado en backend, con más de 4 años de experiencia
+      construyendo soluciones escalables y robustas. Actualmente enfocado en automatización,
+      CI/CD, infraestructura y tecnologías cloud, mientras completo mi formación en DevOps en ORT ATI.
     </p>
     <div class="hero-cta">
       <a href="#projects" class="btn btn-primary">Ver proyectos</a>
@@ -52,7 +52,6 @@
           Control de versiones
         </div>
         <ul class="skill-list">
-          <!-- TODO: editá los tags con tus herramientas reales -->
           <li class="skill-tag">Git</li>
           <li class="skill-tag">GitHub</li>
           <li class="skill-tag">GitLab</li>
@@ -66,20 +65,20 @@
         </div>
         <ul class="skill-list">
           <li class="skill-tag">GitHub Actions</li>
-          <li class="skill-tag">Jenkins</li>
-          <li class="skill-tag">ArgoCD</li>
+          <li class="skill-tag">CI/CD</li>
+          <li class="skill-tag">New Relic</li>
         </ul>
       </div>
 
       <div class="skill-card">
         <div class="skill-card-title">
           <span class="skill-dot"></span>
-          Contenedores
+          Backend
         </div>
         <ul class="skill-list">
-          <li class="skill-tag">Docker</li>
-          <li class="skill-tag">Kubernetes</li>
-          <li class="skill-tag">Helm</li>
+          <li class="skill-tag">Node.js</li>
+          <li class="skill-tag">NestJS</li>
+          <li class="skill-tag">TypeScript</li>
         </ul>
       </div>
 
@@ -91,7 +90,19 @@
         <ul class="skill-list">
           <li class="skill-tag">AWS</li>
           <li class="skill-tag">Terraform</li>
-          <li class="skill-tag">Ansible</li>
+          <li class="skill-tag">Docker</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-title">
+          <span class="skill-dot"></span>
+          Bases de datos
+        </div>
+        <ul class="skill-list">
+          <li class="skill-tag">MySQL</li>
+          <li class="skill-tag">MongoDB</li>
+          <li class="skill-tag">Redis</li>
         </ul>
       </div>
 
@@ -102,20 +113,8 @@
         </div>
         <ul class="skill-list">
           <li class="skill-tag">Bash</li>
-          <li class="skill-tag">Python</li>
+          <li class="skill-tag">Linux</li>
           <li class="skill-tag">YAML</li>
-        </ul>
-      </div>
-
-      <div class="skill-card">
-        <div class="skill-card-title">
-          <span class="skill-dot"></span>
-          Observabilidad
-        </div>
-        <ul class="skill-list">
-          <li class="skill-tag">Prometheus</li>
-          <li class="skill-tag">Grafana</li>
-          <li class="skill-tag">ELK Stack</li>
         </ul>
       </div>
 
@@ -132,35 +131,33 @@
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-name">Pipeline CI/CD</span>
-          <!-- TODO: reemplazá # con el link real del proyecto -->
+          <span class="project-name">Backend de Seguros</span>
           <a href="#" class="project-link">↗ ver repo</a>
         </div>
         <p class="project-desc">
-          <!-- TODO: describí tu proyecto real -->
-          Pipeline automatizado con GitHub Actions que ejecuta tests, build de imagen Docker
-          y deploy a un cluster de Kubernetes en cada push a main.
+          API backend desarrollada con NestJS y TypeScript para la gestión de seguros,
+          incluyendo CRUD, integración con WhatsApp y procesos automatizados mediante tareas programadas.
         </p>
         <div class="project-tags">
-          <span class="project-tag">GitHub Actions</span>
-          <span class="project-tag">Docker</span>
-          <span class="project-tag">Kubernetes</span>
+          <span class="project-tag">NestJS</span>
+          <span class="project-tag">TypeScript</span>
+          <span class="project-tag">WhatsApp</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="project-header">
-          <span class="project-name">Infraestructura con Terraform</span>
+          <span class="project-name">Infraestructura Cloud</span>
           <a href="#" class="project-link">↗ ver repo</a>
         </div>
         <p class="project-desc">
-          Definición de infraestructura en AWS usando Terraform: VPC, EC2, RDS y S3
-          con gestión de estado remoto en S3 + DynamoDB.
+          Implementación y administración de servicios sobre AWS, trabajando con
+          RDS, S3, VPC, Redis y diferentes componentes de infraestructura y despliegue.
         </p>
         <div class="project-tags">
-          <span class="project-tag">Terraform</span>
           <span class="project-tag">AWS</span>
-          <span class="project-tag">IaC</span>
+          <span class="project-tag">Terraform</span>
+          <span class="project-tag">Docker</span>
         </div>
       </div>
 
@@ -170,8 +167,8 @@
           <a href="#" class="project-link">↗ ver repo</a>
         </div>
         <p class="project-desc">
-          Este mismo portfolio: publicado con GitHub Pages y GitHub Actions.
-          Deploy automático en cada push a main.
+          Portfolio personal orientado a DevOps, utilizando Git, GitHub Pages y
+          GitHub Actions para automatizar el proceso de publicación.
         </p>
         <div class="project-tags">
           <span class="project-tag">GitHub Pages</span>
@@ -192,20 +189,18 @@
     <div class="edu-list">
 
       <div class="edu-item">
-        <span class="edu-year">2024 — 2025</span>
+        <span class="edu-year">2026</span>
         <div>
           <p class="edu-title">Certificado DevOps</p>
-          <!-- TODO: completá con tu institución real -->
           <p class="edu-institution">ORT ATI — Escuela de Tecnología</p>
         </div>
       </div>
 
       <div class="edu-item">
-        <!-- TODO: agregá tu educación real -->
-        <span class="edu-year">20XX — 20XX</span>
+        <span class="edu-year">2022 — 2024</span>
         <div>
-          <p class="edu-title">Tu título o carrera</p>
-          <p class="edu-institution">Tu institución</p>
+          <p class="edu-title">Analista en Programación</p>
+          <p class="edu-institution">Universidad ORT Uruguay</p>
         </div>
       </div>
 
@@ -222,21 +217,20 @@
       ¿Tenés una oportunidad o proyecto interesante? Escribime.
     </p>
     <div class="contact-links">
-      <!-- TODO: reemplazá los href con tus links reales -->
-      <a href="mailto:tu@email.com" class="contact-link">
-        <span class="contact-icon">✉</span> tu@email.com
+      <a href="mailto:marianohernandez1998@outlook.com" class="contact-link">
+        <span class="contact-icon">✉</span> marianohernandez1998@outlook.com
       </a>
-      <a href="https://github.com/tu-usuario" class="contact-link" target="_blank">
+      <a href="https://github.com/MarianoHernandezEscobal" class="contact-link" target="_blank">
         <span class="contact-icon">⌥</span> GitHub
       </a>
-      <a href="https://linkedin.com/in/tu-usuario" class="contact-link" target="_blank">
+      <a href="https://www.linkedin.com/in/marianohernandezbackend" class="contact-link" target="_blank">
         <span class="contact-icon">◈</span> LinkedIn
       </a>
     </div>
   </section>
 
   <footer>
-    Hecho con Git, GitHub Pages y mucho <span>☕</span> — <span>TU_NOMBRE</span>
+    Hecho con Git, GitHub Pages y mucho <span>☕</span> — <span>MARIANO_HERNÁNDEZ</span>
   </footer>
 
 
